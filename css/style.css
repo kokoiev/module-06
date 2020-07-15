@@ -247,7 +247,7 @@ h6 {
 }
 .team-image {
   margin-bottom: 30px;
-  transition: all 0.08s linear;
+  transition: all 0.04s linear;
 }
 .team-item-name {
   margin-bottom: 10px;
@@ -308,11 +308,14 @@ h6 {
 .team-item {
   position: relative;
 }
-.team-item:hover .team-image {
-  transform: translate(-10px, -10px);
+.team-div {
+  position: relative;
 }
-.team-item:hover .overlay {
+.team-div:hover .overlay {
   display: flex;
+}
+.team-div:hover {
+  transform: translate(-10px, -10px);
 }
 .overlay-list-item:hover {
   background-color: #95e1d3;
@@ -339,6 +342,7 @@ h6 {
   line-height: 1.2;
 }
 .form-input {
+  font-family: "Roboto";
   display: block;
   box-sizing: border-box;
   width: 230px;
@@ -380,5 +384,8 @@ h6 {
   text-align: left;
 }
 .form-input::placeholder {
+  padding-left: 10px;
+}
+.form-input {
   padding-left: 10px;
 }
