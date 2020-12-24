@@ -78,24 +78,23 @@ h6 {
 }
 .nav-site-logo {
   font-size: 30px;
-  font-family: "Montserrat";
+  font-family: 'Montserrat';
   font-weight: bold;
   color: rgb(149, 225, 211);
   line-height: 1.2;
 }
 .nav-list-item-link {
   font-size: 14px;
-  font-family: "Montserrat";
+  font-family: 'Montserrat';
   color: rgb(149, 225, 211);
   text-transform: uppercase;
   line-height: 1.2;
   text-align: center;
-  transition: all 0.2s linear;
+  transition: all 1s linear;
 }
 .navigation {
   display: flex;
   justify-content: space-between;
-  width: 1280px;
   margin: 0 auto;
   align-items: baseline;
   padding-top: 25px;
@@ -114,7 +113,7 @@ h6 {
 }
 .nav-list-item-link:hover::after {
   display: block;
-  content: "";
+  content: '';
   height: 3px;
   background-color: rgb(243, 129, 129);
   margin: 0;
@@ -127,7 +126,7 @@ h6 {
 .services-title,
 .team-title {
   font-size: 30px;
-  font-family: "Montserrat";
+  font-family: 'Montserrat';
   color: rgb(51, 51, 51);
   font-weight: bold;
   text-transform: uppercase;
@@ -139,7 +138,7 @@ h6 {
 .team-title-span {
   display: block;
   font-size: 24px;
-  font-family: "Kaushan Script", cursive;
+  font-family: 'Kaushan Script', cursive;
   color: rgb(51, 51, 51);
   line-height: 1.2;
   text-align: center;
@@ -148,7 +147,7 @@ h6 {
 }
 .services-title::after,
 .team-title::after {
-  content: "";
+  content: '';
   display: block;
   background-color: rgb(243, 129, 129);
   height: 3px;
@@ -157,7 +156,6 @@ h6 {
   margin-top: 40px;
 }
 .services {
-  width: 1280px;
   margin: auto;
 }
 .services-list {
@@ -190,7 +188,7 @@ h6 {
 }
 .services-item-name {
   font-size: 14px;
-  font-family: "Montserrat";
+  font-family: 'Montserrat';
   font-weight: 400;
   color: rgb(51, 51, 51);
   text-transform: uppercase;
@@ -201,7 +199,7 @@ h6 {
 }
 .services-item-text {
   font-size: 15px;
-  font-family: "Roboto";
+  font-family: 'Roboto';
   color: rgb(153, 153, 153);
   line-height: 1.6;
   text-align: left;
@@ -213,7 +211,7 @@ h6 {
   margin-bottom: 40px;
 }
 .description {
-  font-family: "Roboto";
+  font-family: 'Roboto';
   color: rgb(153, 153, 153);
   line-height: 1.6;
   text-align: center;
@@ -224,7 +222,7 @@ h6 {
 
 .team-item-name {
   font-size: 14px;
-  font-family: "Montserrat";
+  font-family: 'Montserrat';
   color: rgb(51, 51, 51);
   text-transform: uppercase;
   line-height: 1.2;
@@ -232,7 +230,7 @@ h6 {
 }
 .team-item-prof {
   font-size: 15px;
-  font-family: "Roboto";
+  font-family: 'Roboto';
   color: rgb(153, 153, 153);
   font-style: italic;
   line-height: 1.6;
@@ -240,14 +238,12 @@ h6 {
   margin-bottom: 80px;
 }
 .team-list {
-  width: 1280px;
   margin: 0 auto;
   display: flex;
   justify-content: space-between;
 }
 .team-image {
   margin-bottom: 30px;
-  transition: all 0.04s linear;
 }
 .team-item-name {
   margin-bottom: 10px;
@@ -267,28 +263,28 @@ h6 {
   width: 56px;
   height: 56px;
   background-color: rgb(252, 227, 138);
-  transition: all 0.2s linear;
+  transition: all 1s linear;
 }
 .overlay-list-item:not(last-child) {
   border-right: 1px solid rgba(243, 129, 129, 0.52);
 }
 .overlay-facebook {
-  background-image: url(../image/facebook.png);
+  background-image: url(../image/facebook.svg);
   background-repeat: no-repeat;
   background-position: center;
 }
 .overlay-twitter {
-  background-image: url(../image/twitter.png);
+  background-image: url(../image/twitter.svg);
   background-repeat: no-repeat;
   background-position: center;
 }
 .overlay-pinterest {
-  background-image: url(../image/pinterest.png);
+  background-image: url(../image/pinterest.svg);
   background-repeat: no-repeat;
   background-position: center;
 }
 .overlay-instagram {
-  background-image: url(../image/instagram.png);
+  background-image: url(../image/instagram.svg);
   background-repeat: no-repeat;
   background-position: center;
 }
@@ -316,13 +312,14 @@ h6 {
 }
 .team-div:hover {
   transform: translate(-10px, -10px);
+  transition: all 0.2s linear;
 }
 .overlay-list-item:hover {
   background-color: #95e1d3;
 }
 .footer-text {
   font-size: 14px;
-  font-family: "Montserrat";
+  font-family: 'Montserrat';
   color: rgb(51, 51, 51);
   line-height: 1.2;
 }
@@ -337,12 +334,12 @@ h6 {
 }
 .footer-link {
   font-size: 14px;
-  font-family: "Montserrat";
+  font-family: 'Montserrat';
   color: rgb(243, 129, 129);
   line-height: 1.2;
 }
 .form-input {
-  font-family: "Roboto";
+  font-family: 'Roboto';
   display: block;
   box-sizing: border-box;
   width: 230px;
@@ -358,7 +355,7 @@ h6 {
   height: 40px;
   font-size: 14px;
   padding-left: 10px;
-  font-family: "Montserrat";
+  font-family: 'Montserrat';
   color: rgb(255, 255, 255);
   font-weight: bold;
   text-transform: uppercase;
@@ -369,7 +366,7 @@ h6 {
 .form-input::-webkit-input-placeholder {
   font-size: 15px;
   padding-left: 10px;
-  font-family: "Roboto";
+  font-family: 'Roboto';
   color: rgb(204, 204, 204);
   font-style: italic;
   line-height: 1.6;
@@ -378,7 +375,7 @@ h6 {
 
 .form-input::-moz-placeholder {
   font-size: 15px;
-  font-family: "Roboto";
+  font-family: 'Roboto';
   color: rgb(204, 204, 204);
   font-style: italic;
   text-align: left;
@@ -388,4 +385,8 @@ h6 {
 }
 .form-input {
   padding-left: 10px;
+}
+.container {
+  margin: 0 auto;
+  width: 1280px;
 }
