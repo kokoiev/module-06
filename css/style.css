@@ -306,13 +306,13 @@ h6 {
 }
 .team-div {
   position: relative;
+  transition: all 0.2s linear;
 }
 .team-div:hover .overlay {
   display: flex;
 }
 .team-div:hover {
   transform: translate(-10px, -10px);
-  transition: all 0.2s linear;
 }
 .overlay-list-item:hover {
   background-color: #95e1d3;
