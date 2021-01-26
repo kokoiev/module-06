@@ -98,7 +98,7 @@ h6 {
   margin: 0 auto;
   align-items: baseline;
   padding-top: 25px;
-  margin-bottom: 125px;
+  padding-bottom: 125px;
 }
 .nav-list {
   display: flex;
@@ -195,7 +195,7 @@ h6 {
   line-height: 1.2;
   text-align: left;
   padding-left: 80px;
-  margin-bottom: 15px;
+  padding-bottom: 15px;
 }
 .services-item-text {
   font-size: 15px;
@@ -204,7 +204,7 @@ h6 {
   line-height: 1.6;
   text-align: left;
   padding-left: 80px;
-  margin-bottom: 100px;
+  padding-bottom: 100px;
 }
 /* section our team */
 .team-title {
@@ -227,6 +227,7 @@ h6 {
   text-transform: uppercase;
   line-height: 1.2;
   text-align: center;
+  padding-bottom: 10px;
 }
 .team-item-prof {
   font-size: 15px;
@@ -235,7 +236,7 @@ h6 {
   font-style: italic;
   line-height: 1.6;
   text-align: center;
-  margin-bottom: 80px;
+  padding-bottom: 80px;
 }
 .team-list {
   margin: 0 auto;
@@ -244,9 +245,6 @@ h6 {
 }
 .team-image {
   margin-bottom: 30px;
-}
-.team-item-name {
-  margin-bottom: 10px;
 }
 .overlay {
   width: 380px;
